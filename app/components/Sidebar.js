@@ -273,7 +273,7 @@ class Sidebar extends Component {
                 </Link>
                 :
                 <button
-                  className="stopStartButton"
+                  className="wallet-button"
                   onClick={this.startWallet}
                 >
                   {lang.startWallet}
